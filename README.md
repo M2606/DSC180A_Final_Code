@@ -14,3 +14,10 @@ The config directory contains the paths for all the data as well as a parameter 
 
 Successful execution of the run.py file should result in a csv file in the root directory with the desired stats.
 
+Note: To run our project on real data:
+Download genotype data from:
+http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz.tbi
+Download gene expression data from:
+https://www.ebi.ac.uk/arrayexpress/files/E-GEUV-3/GD462.GeneQuantRPKM.50FN.samplename.resk10.txt.gz
+
+Change filepath in the data-params.json file in the config directory to the correct path and the rest of the code should run smoothly.
