@@ -1,8 +1,8 @@
 {
-    "gene_exp_fp": "/home/mpoladi/DSC_Capstone_Project/DSC180A_Final_Code/test/gene_expression_new.csv",
-    "pop_file": "/home/mpoladi/DSC_Capstone_Project/DSC180A_Final_Code/test/ALL_1000G_phase1integrated_v3.sample",
-    "plink_bed": "/home/mpoladi/DSC_Capstone_Project/DSC180A_Final_Code/test/output.bed",
-    "plink_bim":"/home/mpoladi/DSC_Capstone_Project/DSC180A_Final_Code/test/output.bim",
-    "plink_fam": "/home/mpoladi/DSC_Capstone_Project/DSC180A_Final_Code/test/output.fam",
+    "gene_exp_fp": "./test/gene_expression_new.csv",
+    "pop_file": "./test/ALL_1000G_phase1integrated_v3.sample",
+    "plink_bed": "./test/output.bed",
+    "plink_bim":"./test/output.bim",
+    "plink_fam": "./test/output.fam",
     "desired_pop": "AFR"
 }
