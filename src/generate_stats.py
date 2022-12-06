@@ -1,6 +1,9 @@
 from scipy import stats 
+import numpy as np
+import pandas as pd
 
 def generate_stats(gene_list, sample_ids, exp_pop, val2, bim_file, desired_pop):
+    print("Generating Stats")
     my_output = []
     for i in gene_list:
 
@@ -21,5 +24,6 @@ def generate_stats(gene_list, sample_ids, exp_pop, val2, bim_file, desired_pop):
             slope, intercept, r, p, se = stats.linregress((merged['snp'].astype(np.float), merged['Value'].astype(np.float)))
             my_mini_output.append(p)
             my_mini_output.append(slope)
-            my_output.append(my_mini_output)return pd.DataFrame({'slope':slope_list, 'corr':r_list, 'p_val':p_list, 'standard_error': se_list})
+            my_output.append(my_mini_output)
+        
     return pd.DataFrame(my_output, columns = ['gene', 'snp_idx', 'p', 'slope'])

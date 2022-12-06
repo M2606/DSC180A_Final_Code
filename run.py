@@ -34,6 +34,7 @@ def main(targets):
             data_cfg = json.load(fh)
 
         # make the data target
+        
         gene_list, sample_ids, exp_pop, val2, bim_file, desired_pop = get_data(**data_cfg)
         my_stats = generate_stats(gene_list, sample_ids, exp_pop, val2, bim_file, desired_pop)
         my_stats.to_csv("results.csv")
