@@ -1,0 +1,8 @@
+{
+    "gene_exp_fp": "/home/mpoladi/DSC180A-Capstone/DSC180A-Methodology-2/test/gene_expression_new.csv",
+    "pop_file": "/home/mpoladi/DSC180A-Capstone/DSC180A-Methodology-2/test/ALL_1000G_phase1integrated_v3.sample",
+    "plink_bed": "/home/mpoladi/DSC180A-Capstone/DSC180A-Methodology-2/test/output.bed",
+    "plink_bim":"/home/mpoladi/DSC180A-Capstone/DSC180A-Methodology-2/test/output.bim",
+    "plink_fam": "/home/mpoladi/DSC180A-Capstone/DSC180A-Methodology-2/test/output.fam",
+    "desired_pop": "AFR"
+}
